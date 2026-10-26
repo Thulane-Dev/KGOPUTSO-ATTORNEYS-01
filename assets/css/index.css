@@ -685,3 +685,115 @@ a {
     transform: none;
   }
 }
+
+/* CONTACT SECTION */
+.kg-contact-section {
+  background: var(--background_color);
+  padding: 80px 0;
+}
+
+.kg-contact-heading {
+  max-width: 650px;
+  margin-inline: auto;
+}
+
+.kg-contact-eyebrow {
+  display: inline-block;
+  color: var(--secondary_color);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+}
+
+.kg-contact-heading h2 {
+  color: var(--primary_color);
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.kg-contact-heading p {
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 0;
+}
+
+.kg-contact-card {
+  background: var(--white_color);
+  border: 1px solid rgba(20, 22, 45, 0.08);
+  border-radius: 14px;
+  padding: 30px 24px;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.kg-contact-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(20, 22, 45, 0.08);
+}
+
+.kg-contact-icon {
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(207, 169, 78, 0.15);
+  color: var(--secondary_color);
+  border-radius: 12px;
+  font-size: 1.5rem;
+  margin-bottom: 22px;
+}
+
+.kg-contact-card h5 {
+  color: var(--primary_color);
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.kg-contact-card p {
+  color: #6b6b75;
+  font-size: 0.92rem;
+  line-height: 1.7;
+  margin-bottom: 18px;
+}
+
+.kg-contact-card a {
+  color: var(--primary_color);
+  font-size: 0.92rem;
+  font-weight: 600;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+.kg-contact-card a:hover {
+  color: #a9852f;
+}
+
+.kg-contact-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.kg-contact-card address {
+  color: var(--primary_color);
+  font-size: 0.95rem;
+  font-style: normal;
+  line-height: 1.9;
+  margin-bottom: 18px;
+}
+
+@media (max-width: 575.98px) {
+  .kg-contact-section {
+    padding: 55px 0;
+  }
+
+  .kg-contact-card {
+    padding: 25px 22px;
+  }
+}
