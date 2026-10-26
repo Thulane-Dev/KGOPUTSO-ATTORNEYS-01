@@ -1,0 +1,687 @@
+:root {
+  --primary_color: #14162d;
+  --secondary_color: #cfa94e;
+  --orange_color: #f25334;
+  --white_color: rgb(255, 255, 255);
+  --background_color: #f1f3f2;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+}
+
+body::before {
+  display: block;
+  content: "";
+  height: 50px;
+}
+
+/* Animation Overflow  */
+.overflow_content {
+  overflow: hidden !important;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Navbar  */
+.navbar_menu_icon {
+  font-size: 30px;
+  color: var(--primary_color);
+}
+
+/* .offcanvas {
+  width: 50%;
+}
+
+.offcanvas-start {
+  width: 80%;
+} */
+
+.offcanvas_logo {
+  height: 250px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.offcanvas_links {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  color: var(--primary_color);
+  font-style: normal;
+}
+
+.navbar_container {
+  border: 0.5px solid white;
+  border-radius: 50px;
+}
+
+.navbar_links {
+  color: var(--white_color);
+  font-weight: 600;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: 14px;
+}
+
+.navbar_logo {
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+}
+
+.navbar_title {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+  color: var(--primary_color) !important;
+}
+
+.nav_items {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--primary_color) !important;
+}
+
+.navbar_btn {
+  background-color: var(--primary_color);
+  color: var(--white_color);
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* hero style  */
+
+.section_spacing {
+  margin-top: 150px;
+}
+
+.section_titles {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 48px;
+}
+
+.gold_text {
+  color: var(--secondary_color);
+}
+
+.hero_image {
+  height: 80vh;
+  width: 100%;
+  object-fit: contain;
+}
+
+/* Services style  */
+.service_arrow_icon {
+  font-size: 25px;
+}
+
+.service_image {
+  height: 170px;
+  width: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+/* about style  */
+.about_image_one {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.about_image_two {
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.outline_btn {
+  border-color: var(--primary_color);
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--primary_color);
+}
+
+/* Team style  */
+.team_card {
+  height: 350px;
+  width: 100%;
+  background: linear-gradient(
+    to left,
+    #cfa647 0%,
+    rgba(207, 166, 71, 0.6) 40%,
+    rgba(207, 166, 71, 0) 100%
+  );
+  border-radius: 15px;
+}
+
+.team_image {
+  height: 350px;
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.team_title {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--white_color);
+}
+
+/* Fees style  */
+.fees_title {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Contact style  */
+.contact_us_image {
+  min-height: 500px;
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.input_style {
+  border-radius: 20px;
+}
+
+/* Footer style  */
+.footer_title {
+  font-size: 100px;
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  color: white;
+  font-style: normal;
+}
+
+.footer_icons_container {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white_color);
+}
+
+.footer_icons {
+  font-size: 25px;
+  color: var(--secondary_color);
+}
+
+.footer_nav {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  color: white;
+  font-style: normal;
+}
+
+#home,
+#services,
+#about,
+#team,
+#fees,
+#contact {
+  scroll-margin-top: 150px;
+}
+
+@media screen and (max-width: 576px) {
+  .navbar_logo {
+    height: 40px;
+    width: 40px;
+  }
+
+  .hero_image {
+    height: 60vh;
+  }
+
+  .team_card {
+    height: 100%;
+  }
+
+  .section_spacing {
+    margin-top: 55px;
+  }
+
+  .section_titles {
+    font-size: 32px;
+  }
+
+  .footer_container {
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .footer_title {
+    font-size: 64px;
+  }
+}
+
+.avatar-wrap {
+  width: 300px;
+  aspect-ratio: 1;
+  position: relative;
+  border-radius: 50%;
+}
+
+/* 🔵 BLUE PARTIAL RING */
+.avatar-wrap::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: conic-gradient(
+    from 40deg,
+    #0f1433 0deg 290deg,
+    transparent 290deg 360deg
+  );
+
+  /* controls ring thickness */
+  -webkit-mask: radial-gradient(circle, transparent 62%, #000 63%);
+  mask: radial-gradient(circle, transparent 62%, #000 63%);
+}
+
+/* 🟡 GOLD FULL RING */
+.gold-ring {
+  position: absolute;
+  inset: 18px; /* spacing between blue & gold */
+  background: linear-gradient(
+    to left,
+    #cfa647 0%,
+    rgba(207, 166, 71, 0.6) 40%,
+    rgba(207, 166, 71, 0) 100%
+  );
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+
+/* 🖼 IMAGE */
+.gold-ring img {
+  width: 85%;
+  height: 85%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.avatar_text {
+  color: var(--primary_color) !important;
+}
+
+/* ==========================================
+   KGOPUTSO ATTORNEYS — PEOPLE SECTION
+========================================== */
+
+.kg-people-section {
+  --kg-people-navy: #14162d;
+  --kg-people-gold: #cfa94e;
+  --kg-people-text: #686b77;
+  --kg-people-background: #f7f7f5;
+  --kg-people-white: #ffffff;
+
+  padding: 90px 0;
+  background: var(--kg-people-background);
+}
+
+/* ==========================================
+   HEADER
+========================================== */
+
+.kg-people-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 45px;
+  margin-bottom: 45px;
+}
+
+.kg-people-heading {
+  max-width: 650px;
+}
+
+.kg-people-eyebrow {
+  display: block;
+  margin-bottom: 17px;
+  color: #98752a;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 1.7;
+  text-transform: uppercase;
+}
+
+.kg-people-title {
+  margin: 0;
+  color: var(--kg-people-navy);
+  font-family: "PT Serif", serif;
+  font-size: clamp(2.25rem, 4vw, 3.4rem);
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: -0.6px;
+}
+
+.kg-people-title span {
+  display: block;
+  color: #a17e33;
+}
+
+.kg-people-intro {
+  max-width: 330px;
+  margin: 0 0 5px;
+  color: var(--kg-people-text);
+  font-size: 0.94rem;
+  line-height: 1.9;
+}
+
+/* ==========================================
+   PROFILE CARDS
+========================================== */
+
+.kg-people-card {
+  height: 100%;
+  overflow: hidden;
+  background: var(--kg-people-white);
+  border: 1px solid #e9e8e3;
+  border-radius: 8px;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.kg-people-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(207, 169, 78, 0.55);
+  box-shadow: 0 14px 32px rgba(20, 22, 45, 0.07);
+}
+
+/* Portrait */
+
+.kg-people-portrait {
+  position: relative;
+  aspect-ratio: 4 / 4.1;
+  overflow: hidden;
+  background: #e8e7e2;
+}
+
+.kg-people-portrait img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 25%;
+  transition: transform 0.45s ease;
+}
+
+.kg-people-card:hover .kg-people-portrait img {
+  transform: scale(1.035);
+}
+
+/* Portrait number */
+
+.kg-people-number {
+  position: absolute;
+  right: 15px;
+  bottom: 14px;
+  color: #ffffff;
+  font-family: "PT Serif", serif;
+  font-size: 1.15rem;
+  line-height: 1;
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.45);
+}
+
+/* Card content */
+
+.kg-people-content {
+  padding: 26px 24px 28px;
+}
+
+.kg-people-role {
+  display: block;
+  margin-bottom: 10px;
+  color: #98752a;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 1.25px;
+  line-height: 1.7;
+  text-transform: uppercase;
+}
+
+.kg-people-name {
+  margin: 0;
+  color: var(--kg-people-navy);
+  font-family: "PT Serif", serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+
+.kg-people-divider {
+  width: 38px;
+  height: 2px;
+  margin: 17px 0;
+  background: var(--kg-people-gold);
+}
+
+.kg-people-bio {
+  margin: 0;
+  color: var(--kg-people-text);
+  font-size: 0.89rem;
+  line-height: 1.85;
+}
+
+/* ==========================================
+   GROUP PHOTOGRAPH
+========================================== */
+
+.kg-people-group {
+  margin-top: 70px;
+  background: var(--kg-people-white);
+  border: 1px solid #e9e8e3;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.kg-people-group-image {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 7;
+  overflow: hidden;
+  background: #e8e7e2;
+}
+
+.kg-people-group-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 40%;
+  transition: transform 0.5s ease;
+}
+
+.kg-people-group:hover .kg-people-group-image img {
+  transform: scale(1.015);
+}
+
+/* Group photo caption */
+
+.kg-people-group-caption {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 35px;
+  padding: 30px 34px;
+}
+
+.kg-people-group-caption .kg-people-eyebrow {
+  margin-bottom: 9px;
+}
+
+.kg-people-group-title {
+  margin: 0;
+  color: var(--kg-people-navy);
+  font-family: "PT Serif", serif;
+  font-size: clamp(1.4rem, 2.4vw, 2rem);
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.kg-people-group-text {
+  max-width: 340px;
+  margin: 0;
+  color: var(--kg-people-text);
+  font-size: 0.9rem;
+  line-height: 1.85;
+}
+
+/* ==========================================
+   TABLETS
+========================================== */
+
+@media (max-width: 991.98px) {
+  .kg-people-section {
+    padding: 70px 0;
+  }
+
+  .kg-people-header {
+    gap: 25px;
+    margin-bottom: 35px;
+  }
+
+  .kg-people-intro {
+    max-width: 280px;
+  }
+
+  .kg-people-content {
+    padding: 23px 20px 25px;
+  }
+
+  .kg-people-name {
+    font-size: 1.28rem;
+  }
+
+  .kg-people-group {
+    margin-top: 50px;
+  }
+
+  .kg-people-group-caption {
+    padding: 26px;
+  }
+}
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media (max-width: 767.98px) {
+  .kg-people-section {
+    padding: 55px 0;
+  }
+
+  .kg-people-header {
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  .kg-people-title {
+    font-size: clamp(2rem, 7vw, 2.7rem);
+  }
+
+  .kg-people-intro {
+    max-width: 520px;
+    margin-top: 18px;
+  }
+
+  .kg-people-grid {
+    --bs-gutter-y: 1.5rem;
+  }
+
+  .kg-people-portrait {
+    aspect-ratio: 4 / 3.5;
+  }
+
+  .kg-people-group {
+    margin-top: 40px;
+  }
+
+  .kg-people-group-image {
+    aspect-ratio: 4 / 3;
+  }
+
+  .kg-people-group-caption {
+    display: block;
+    padding: 24px 22px;
+  }
+
+  .kg-people-group-text {
+    margin-top: 15px;
+  }
+}
+
+/* ==========================================
+   SMALL PHONES
+========================================== */
+
+@media (max-width: 575.98px) {
+  .kg-people-section {
+    padding: 45px 0;
+  }
+
+  .kg-people-eyebrow {
+    font-size: 0.65rem;
+    letter-spacing: 1.5px;
+  }
+
+  .kg-people-content {
+    padding: 24px 22px 27px;
+  }
+
+  .kg-people-name {
+    font-size: 1.4rem;
+  }
+
+  .kg-people-group-image {
+    aspect-ratio: 5 / 4;
+  }
+}
+
+/* ==========================================
+   REDUCED MOTION
+========================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  .kg-people-card,
+  .kg-people-portrait img,
+  .kg-people-group-image img {
+    transition: none;
+  }
+
+  .kg-people-card:hover {
+    transform: none;
+  }
+
+  .kg-people-card:hover .kg-people-portrait img,
+  .kg-people-group:hover .kg-people-group-image img {
+    transform: none;
+  }
+}

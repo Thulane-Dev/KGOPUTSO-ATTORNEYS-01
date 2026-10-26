@@ -1,0 +1,1271 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap icons  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+
+    <!-- PT+Serif google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Poppins  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- AOS animation  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Index CSS  -->
+    <link rel="stylesheet" href="assets/css/index.css" />
+
+    <title>KGOPUTSO ATTORNEYS</title>
+
+    <style>
+      .avatar_card {
+        background-image: url("assets/images/Background_grey_image.jpg");
+        min-height: 400px;
+        width: 100%;
+        background-size: cover;
+        border-radius: 10px;
+      }
+
+      .contact_card {
+        min-height: 500px;
+        width: 100%;
+        background-image: url("assets/images/blue_background_image.png");
+        background-size: cover;
+        border-radius: 15px;
+      }
+
+      .footer_container {
+        background-image: url("assets/images/blue_background_image.png");
+        background-size: cover;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+      }
+
+      .section_background {
+        background-image: url("assets/images/blue_background_image.png");
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ======= Navbar  ======= -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 fixed-top">
+      <div class="container-fluid position-relative d-flex align-items-center">
+        <!-- Brand on the left -->
+
+        <a
+          class="navbar-brand navbar_title d-flex align-items-center gap-3"
+          href="#home"
+        >
+          <img
+            src="assets/images/blue_logo_trans.png"
+            alt=""
+            class="d-inline-block align-text-top navbar_logo"
+          />
+          KGOPUTSO ATTORNEYS
+        </a>
+
+        <!-- Toggler button -->
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasExample"
+          aria-controls="offcanvasExample"
+        >
+          <i class="bi bi-list navbar_menu_icon text-secondary"></i>
+        </button>
+
+        <!-- Centered content -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Left empty div for balance -->
+          <div class="navbar-nav me-auto"></div>
+
+          <!-- Centered navigation -->
+          <ul class="navbar-nav position-absolute start-50 translate-middle-x">
+            <li class="nav-item">
+              <a
+                class="nav-link active nav_items text-uppercase"
+                aria-current="page"
+                href="#home"
+                >HOME</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active nav_items text-uppercase"
+                aria-current="page"
+                href="#services"
+                >services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active nav_items text-uppercase"
+                aria-current="page"
+                href="#about"
+                >about</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active nav_items text-uppercase"
+                aria-current="page"
+                href="#team"
+                >team</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active nav_items text-uppercase"
+                aria-current="page"
+                href="#fees"
+                >fees</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active nav_items text-uppercase"
+                aria-current="page"
+                href="#contact"
+                >contact</a
+              >
+            </li>
+          </ul>
+
+          <!-- Search form on the right -->
+          <div class="d-flex">
+            <a href="#contact">
+              <button
+                type="button"
+                class="btn btn-dark navbar_btn px-5 rounded-pill"
+              >
+                Get Started
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ======= Offcanvas menu  ======= -->
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5>
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <center>
+          <img
+            src="assets/images/P-Kgoputso-Attorneys-gold.png"
+            alt=""
+            class="offcanvas_logo mb-4"
+          />
+          <a href="#home">
+            <h4 class="text-uppercase offcanvas_links mb-3">home</h4>
+          </a>
+
+          <a href="#services">
+            <h4 class="text-uppercase offcanvas_links mb-3">services</h4>
+          </a>
+
+          <a href="#about">
+            <h4 class="text-uppercase offcanvas_links mb-3">about</h4>
+          </a>
+
+          <a href="#team">
+            <h4 class="text-uppercase offcanvas_links mb-3">team</h4>
+          </a>
+
+          <a href="#fees">
+            <h4 class="text-uppercase offcanvas_links mb-3">fees</h4>
+          </a>
+
+          <a href="#contact">
+            <h4 class="text-uppercase offcanvas_links mb-3">contact</h4>
+          </a>
+        </center>
+      </div>
+    </div>
+
+    <!-- ======= Hero style  ======= -->
+    <section class="section_background" id="home">
+      <img
+        src="assets/images/P-Kgoputso-Attorneys-gold_white.png"
+        alt="#"
+        class="hero_image"
+      />
+    </section>
+
+    <!-- ======= Services  ======= -->
+    <section class="container section_spacing overflow_content" id="services">
+      <center>
+        <p
+          class="text-secondary mb-2"
+          data-aos="fade-right"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          Services
+        </p>
+        <h1
+          class="section_titles"
+          data-aos="fade-right"
+          data-aos-delay="50"
+          data-aos-duration="1500"
+        >
+          Our Legal
+          <span class="gold_text">Services</span>
+        </h1>
+      </center>
+
+      <ul class="list-group list-group-flush mt-5 overflow_content">
+        <li class="list-group-item pt-3 pb-5">
+          <div class="row">
+            <div
+              class="col-12 col-md-6"
+              data-aos="fade-right"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
+              <img
+                src="assets/images/service_Image01.jpg"
+                alt=""
+                class="service_image d-block d-md-none"
+              />
+              <h1 class="nav_items">Administration of Deceased Estates</h1>
+            </div>
+            <div
+              class="col-12 col-md-6 d-flex gap-4"
+              data-aos="fade-left"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
+              <p class="mb-0 text-secondary">
+                We assist families in navigating the legal process of winding up
+                a loved one’s estate. Our team ensures all estate documents are
+                correctly completed, assets are identified, debts are settled,
+                and distributions are carried out in accordance with the law. We
+                provide compassionate, structured support during a difficult
+                time, ensuring compliance with the Master of the High Court.
+              </p>
+              <i class="bi bi-arrow-up-right service_arrow_icon"></i>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item pt-3 pb-5">
+          <div class="row">
+            <div
+              class="col-12 col-md-6"
+              data-aos="fade-right"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
+              <img
+                src="assets/images/service_Image02.jpg"
+                alt=""
+                class="service_image d-block d-md-none"
+              />
+              <h1 class="nav_items">Civil Litigation</h1>
+            </div>
+            <div
+              class="col-12 col-md-6 d-flex gap-4"
+              data-aos="fade-left"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
+              <p class="mb-0 text-secondary">
+                We represent individuals and businesses in civil disputes,
+                providing strategic litigation solutions that protect your
+                rights and interests. Whether defending a claim or initiating
+                legal action, we focus on achieving favourable outcomes through
+                negotiation, mediation, or court processes.
+              </p>
+              <i class="bi bi-arrow-up-right service_arrow_icon"></i>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item pt-3 pb-5">
+          <div class="row">
+            <div
+              class="col-12 col-md-6"
+              data-aos="fade-right"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
+              <img
+                src="assets/images/service_Image03.png"
+                alt=""
+                class="service_image d-block d-md-none"
+              />
+              <h1 class="nav_items">Wills & Trusts</h1>
+            </div>
+            <div
+              class="col-12 col-md-6 d-flex gap-4"
+              data-aos="fade-left"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
+              <p class="mb-0 text-secondary">
+                We provide professional drafting of Wills and establishment of
+                Trusts to ensure your assets are protected and distributed
+                according to your wishes. Our guidance helps you structure your
+                estate efficiently, avoiding future disputes and ensuring
+                long-term financial security for your family.
+              </p>
+              <i class="bi bi-arrow-up-right service_arrow_icon"></i>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item pt-3 pb-5">
+          <div class="row">
+            <div
+              class="col-12 col-md-6"
+              data-aos="fade-right"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
+              <img
+                src="assets/images/service_Image04.png"
+                alt=""
+                class="service_image d-block d-md-none"
+              />
+              <h1 class="nav_items">Criminal Law</h1>
+            </div>
+            <div
+              class="col-12 col-md-6 d-flex gap-4"
+              data-aos="fade-left"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
+              <p class="mb-0 text-secondary">
+                We defend clients facing criminal charges, ensuring that their
+                constitutional rights are protected throughout the legal
+                process. From bail applications and police station consultations
+                to trial representation, we handle all criminal matters with
+                skill and urgency.
+              </p>
+              <i class="bi bi-arrow-up-right service_arrow_icon"></i>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item pt-3 pb-5">
+          <div class="row">
+            <div
+              class="col-12 col-md-6"
+              data-aos="fade-right"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
+              <img
+                src="assets/images/service_Image05.jpg"
+                alt=""
+                class="service_image d-block d-md-none"
+              />
+              <h1 class="nav_items">Labour Law</h1>
+            </div>
+            <div
+              class="col-12 col-md-6 d-flex gap-4"
+              data-aos="fade-left"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
+              <p class="mb-0 text-secondary">
+                We assist both employers and employees with CCMA matters, unfair
+                dismissals, labour disputes, disciplinary hearings, workplace
+                policies, and employment contracts. Our aim is to resolve labour
+                issues swiftly and fairly.
+              </p>
+              <i class="bi bi-arrow-up-right service_arrow_icon"></i>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item pt-3 pb-5">
+          <div class="row">
+            <div
+              class="col-12 col-md-6"
+              data-aos="fade-right"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
+              <img
+                src="assets/images/service_Image06.png"
+                alt=""
+                class="service_image d-block d-md-none"
+              />
+              <h1 class="nav_items">RAF Claims</h1>
+            </div>
+            <div
+              class="col-12 col-md-6 d-flex gap-4"
+              data-aos="fade-left"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
+              <p class="mb-0 text-secondary">
+                We help victims of road accidents pursue compensation through
+                the Road Accident Fund. From medical assessment coordination to
+                claim lodgment and litigation, we ensure every claim is handled
+                with attention to detail to maximise compensation.
+              </p>
+              <i class="bi bi-arrow-up-right service_arrow_icon"></i>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item pt-3 pb-5">
+          <div class="row">
+            <div
+              class="col-12 col-md-6"
+              data-aos="fade-right"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
+              <img
+                src="assets/images/service_Image07.png"
+                alt=""
+                class="service_image d-block d-md-none"
+              />
+              <h1 class="nav_items">Evictions</h1>
+            </div>
+            <div
+              class="col-12 col-md-6 d-flex gap-4"
+              data-aos="fade-left"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
+              <p class="mb-0 text-secondary">
+                Our firm assists landlords and property owners with lawful and
+                efficient eviction processes. We follow the provisions of the
+                PIE Act to ensure evictions are handled fairly, legally, and
+                without unnecessary delays.
+              </p>
+              <i class="bi bi-arrow-up-right service_arrow_icon"></i>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item pt-3 pb-5">
+          <div class="row">
+            <div
+              class="col-12 col-md-6"
+              data-aos="fade-right"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
+              <img
+                src="assets/images/service_Image08.png"
+                alt=""
+                class="service_image d-block d-md-none"
+              />
+              <h1 class="nav_items">Divorce</h1>
+            </div>
+            <div
+              class="col-12 col-md-6 d-flex gap-4"
+              data-aos="fade-left"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
+              <p class="mb-0 text-secondary">
+                We provide compassionate but firm guidance through divorce
+                proceedings, whether contested or uncontested. Our goal is to
+                protect your rights, secure fair settlements, and ensure the
+                best outcome for all parties involved.
+              </p>
+              <i class="bi bi-arrow-up-right service_arrow_icon"></i>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ======= About us  ======= -->
+    <section class="container section_spacing overflow_content" id="about">
+      <center>
+        <p
+          class="text-secondary mb-2"
+          data-aos="fade-right"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          ABOUT US
+        </p>
+        <h1
+          class="section_titles"
+          data-aos="fade-right"
+          data-aos-delay="50"
+          data-aos-duration="1500"
+        >
+          Trusted Legal <span class="gold_text">Excellence</span>
+        </h1>
+        <h1
+          class="section_titles"
+          data-aos="fade-right"
+          data-aos-delay="50"
+          data-aos-duration="1500"
+        >
+          Rooted in Integrity
+        </h1>
+      </center>
+      <div class="row mt-5">
+        <div class="col-12 col-md-4 mb-4 overflow_content">
+          <p
+            class="text-secondary"
+            data-aos="fade-right"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
+            Kgoputso Attorneys is a dynamic and client-focused law firm
+            dedicated to providing accessible, reliable, and results-driven
+            legal services. Built on a foundation of professionalism and
+            respect, we serve individuals, families, and businesses across South
+            Africa with pride.
+          </p>
+          <p
+            class="text-secondary"
+            data-aos="fade-right"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
+            Our firm combines deep legal expertise with a personal approach,
+            ensuring every client receives tailored guidance suited to their
+            unique circumstances. We are committed to transparency, clear
+            communication, and effective problem-solving in every matter we
+            handle.
+          </p>
+          <p
+            class="text-secondary"
+            data-aos="fade-right"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
+            At Kgoputso Attorneys, we believe that justice must be both
+            attainable and efficient. Our team works diligently to resolve
+            disputes, protect rights, and offer strategic solutions that stand
+            up in negotiation rooms and courtrooms alike.
+          </p>
+          <p
+            class="text-secondary"
+            data-aos="fade-right"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
+            With a vision of becoming a trusted partner in our clients’ legal
+            journeys, we continue to expand our service offerings while
+            maintaining the highest standards of ethical and professional
+            conduct.
+          </p>
+          <a href="#contact">
+            <button
+              type="button"
+              class="btn btn-outline-dark mt-4 rounded-pill px-5 outline_btn"
+              data-aos="fade-right"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
+              Contact Us
+            </button>
+          </a>
+        </div>
+        <div class="col-12 col-md-4 mb-4 overflow_content">
+          <img
+            src="assets/images/about_image_01.png"
+            class="about_image_one"
+            alt=""
+            data-aos="fade-left"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          />
+        </div>
+        <div class="col-12 col-md-4 mb-4">
+          <img
+            src="assets/images/about_image_02.png"
+            class="about_image_two"
+            alt=""
+            data-aos="fade-left"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Kgoputso Attorneys Team ======= -->
+    <section class="kg-people-section bg-light section_spacing" id="team">
+      <div class="container">
+        <!-- Section introduction -->
+        <header
+          class="kg-people-header"
+          data-aos="fade-up"
+          data-aos-duration="800"
+        >
+          <div class="kg-people-heading">
+            <span class="kg-people-eyebrow">
+              THE PEOPLE BEHIND THE PRACTICE
+            </span>
+
+            <h2 class="kg-people-title">
+              Meet the people behind
+              <span>your representation.</span>
+            </h2>
+          </div>
+
+          <p class="kg-people-intro">
+            At Kgoputso Attorneys, we believe that exceptional legal service
+            begins with people who listen, understand and are committed to
+            protecting your interests.
+          </p>
+        </header>
+
+        <!-- Individual team profiles -->
+        <div class="row g-4 kg-people-grid">
+          <!-- Person 1 -->
+          <div
+            class="col-12 col-md-6 col-lg-4"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="800"
+          >
+            <article class="kg-people-card">
+              <div class="kg-people-portrait">
+                <img
+                  src="assets/images/team_image_01.jpeg"
+                  alt="Kgomotso Kgoputso"
+                  loading="lazy"
+                />
+                <span class="kg-people-number">01</span>
+              </div>
+
+              <div class="kg-people-content">
+                <span class="kg-people-role"> Managing Director </span>
+
+                <h3 class="kg-people-name">Kgomotso Kgoputso</h3>
+
+                <div class="kg-people-divider"></div>
+
+                <p class="kg-people-bio">
+                  Kgomotso leads the firm with a commitment to professional
+                  excellence, ethical practice and client-centred legal
+                  services.
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <!-- Person 2 -->
+          <div
+            class="col-12 col-md-6 col-lg-4"
+            data-aos="fade-up"
+            data-aos-delay="150"
+            data-aos-duration="800"
+          >
+            <article class="kg-people-card">
+              <div class="kg-people-portrait">
+                <img
+                  src="assets/images/team_image_02.jpeg"
+                  alt="Nomusa Mvokwe"
+                  loading="lazy"
+                />
+                <span class="kg-people-number">02</span>
+              </div>
+
+              <div class="kg-people-content">
+                <span class="kg-people-role"> Professional Assistant</span>
+
+                <h3 class="kg-people-name">Nomusa Mvokwe</h3>
+
+                <div class="kg-people-divider"></div>
+
+                <p class="kg-people-bio">
+                  My name is Nomusa Mvokwe, a 21 year old from Langaville. I
+                  completed my matric at Tholulwazi Secondary School in 2022 I
+                  am currently studying a Bachelors of Commerce in Law at Boston
+                  City Campus and I am in my final year
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <!-- Person 3 -->
+          <div
+            class="col-12 col-md-6 col-lg-4"
+            data-aos="fade-up"
+            data-aos-delay="250"
+            data-aos-duration="800"
+          >
+            <article class="kg-people-card">
+              <div class="kg-people-portrait">
+                <img
+                  src="assets/images/team_image_03.jpeg"
+                  alt="Jessica Venter"
+                  loading="lazy"
+                />
+                <span class="kg-people-number">03</span>
+              </div>
+
+              <div class="kg-people-content">
+                <span class="kg-people-role"> Administrator</span>
+
+                <h3 class="kg-people-name">Jessica Venter</h3>
+
+                <div class="kg-people-divider"></div>
+
+                <p class="kg-people-bio">
+                  Provides administrative support and helps ensure the firm's
+                  daily operations run smoothly through efficient coordination
+                  and professional client service.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- Group photograph -->
+        <div
+          class="kg-people-group"
+          data-aos="fade-up"
+          data-aos-delay="100"
+          data-aos-duration="900"
+        >
+          <div class="kg-people-group-image">
+            <img
+              src="assets/images/team_image_04.jpeg"
+              alt="The team at Kgoputso Attorneys"
+              loading="lazy"
+            />
+          </div>
+
+          <div class="kg-people-group-caption">
+            <div>
+              <span class="kg-people-eyebrow"> ONE TEAM. ONE COMMITMENT. </span>
+
+              <h3 class="kg-people-group-title">
+                Working together for your interests.
+              </h3>
+            </div>
+
+            <p class="kg-people-group-text">
+              Professional service grounded in integrity, collaboration and a
+              commitment to our clients.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Fees  ======= -->
+    <section class="container section_spacing overflow_content" id="fees">
+      <center>
+        <p
+          class="text-secondary mb-2 text-uppercase"
+          data-aos="fade-right"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          Fees
+        </p>
+        <h1
+          class="section_titles"
+          data-aos="fade-right"
+          data-aos-delay="50"
+          data-aos-duration="1500"
+        >
+          Transparent Fee
+          <span class="gold_text">Structure</span>
+        </h1>
+      </center>
+      <div class="row d-flex justify-content-center mt-5">
+        <div class="col-12 col-md-9">
+          <div class="accordion overflow_content" id="accordionExample">
+            <div
+              class="accordion-item"
+              data-aos="zoom-in"
+              data-aos-delay="50"
+              data-aos-duration="1500"
+            >
+              <h1 class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  <h3 class="fees_title">Administration of Deceased Estate</h3>
+                </button>
+              </h1>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body py-4">
+                  <strong>Our fees for estate administration</strong>
+                  are charged in line with the tariff prescribed by the Master’s
+                  Office. The fee structure is transparent, and clients are
+                  informed of costs upfront based on the value and complexity of
+                  the estate.
+                </div>
+              </div>
+            </div>
+            <div
+              class="accordion-item"
+              data-aos="zoom-in"
+              data-aos-delay="50"
+              data-aos-duration="1500"
+            >
+              <h2 class="accordion-header" id="headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  <h3 class="fees_title">Civil Litigation</h3>
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body py-4">
+                  <strong>Fees are based on the nature of the dispute</strong> ,
+                  required court appearances, and preparation time. Fixed-fee
+                  consultations and hourly billing options are available
+                  depending on case complexity.
+                </div>
+              </div>
+            </div>
+            <div
+              class="accordion-item"
+              data-aos="zoom-in"
+              data-aos-delay="50"
+              data-aos-duration="1500"
+            >
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  <h3 class="fees_title">Wills & Trusts</h3>
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body py-4">
+                  <strong>Will drafting is offered at a fixed fee</strong>,
+                  while Trust setup costs depend on the structure and
+                  administrative requirements. Affordable packages are available
+                  for long-term estate planning.
+                </div>
+              </div>
+            </div>
+            <!-- end item  -->
+            <div
+              class="accordion-item"
+              data-aos="zoom-in"
+              data-aos-delay="50"
+              data-aos-duration="1500"
+            >
+              <h2 class="accordion-header" id="headingFour">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour"
+                  aria-expanded="false"
+                  aria-controls="collapseFour"
+                >
+                  <h3 class="fees_title">Criminal Law</h3>
+                </button>
+              </h2>
+              <div
+                id="collapseFour"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingFour"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body py-4">
+                  <strong
+                    >Criminal law fees vary depending on the stage of the
+                    matter</strong
+                  >
+                  bail applications, consultations, and trial work each carry
+                  different costs. Clients receive a full breakdown before
+                  engagement.
+                </div>
+              </div>
+            </div>
+            <!-- end item  -->
+            <div
+              class="accordion-item"
+              data-aos="zoom-in"
+              data-aos-delay="50"
+              data-aos-duration="1500"
+            >
+              <h2 class="accordion-header" id="headingFive">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive"
+                  aria-expanded="false"
+                  aria-controls="collapseFive"
+                >
+                  <h3 class="fees_title">Labour Law</h3>
+                </button>
+              </h2>
+              <div
+                id="collapseFive"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingFive"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body py-4">
+                  <strong>Labour law services may be charged</strong>
+                  per consultation, per hearing, or on a fixed-fee basis for
+                  specific matters such as drafting disciplinary charges or
+                  representation at the CCMA.
+                </div>
+              </div>
+            </div>
+            <!-- end item  -->
+            <div
+              class="accordion-item"
+              data-aos="zoom-in"
+              data-aos-delay="50"
+              data-aos-duration="1500"
+            >
+              <h2 class="accordion-header" id="headingSix">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseSix"
+                  aria-expanded="false"
+                  aria-controls="collapseSix"
+                >
+                  <h3 class="fees_title">RAF Claims</h3>
+                </button>
+              </h2>
+              <div
+                id="collapseSix"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingSix"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body py-4">
+                  <strong>RAF claims are handled</strong>
+                  on a contingency fee basis—meaning no payment is required
+                  unless compensation is successfully recovered, within the
+                  limits of the Contingency Fees Act.
+                </div>
+              </div>
+            </div>
+            <!-- end item  -->
+            <div
+              class="accordion-item"
+              data-aos="zoom-in"
+              data-aos-delay="50"
+              data-aos-duration="1500"
+            >
+              <h2 class="accordion-header" id="headingSeven">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseSeven"
+                  aria-expanded="false"
+                  aria-controls="collapseSeven"
+                >
+                  <h3 class="fees_title">Evictions</h3>
+                </button>
+              </h2>
+              <div
+                id="collapseSeven"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingSeven"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body py-4">
+                  <strong>Eviction fees depend on whether</strong>
+                  the matter is uncontested or contested. A fixed-fee option is
+                  available for straightforward eviction applications.
+                </div>
+              </div>
+            </div>
+            <!-- end item  -->
+            <div
+              class="accordion-item"
+              data-aos="zoom-in"
+              data-aos-delay="50"
+              data-aos-duration="1500"
+            >
+              <h2 class="accordion-header" id="headingEight">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseEight"
+                  aria-expanded="false"
+                  aria-controls="collapseEight"
+                >
+                  <h3 class="fees_title">Divorce</h3>
+                </button>
+              </h2>
+              <div
+                id="collapseEight"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingEight"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body py-4">
+                  <strong>Uncontested divorces are offered</strong>
+                  at a fixed fee, while contested matters are billed based on
+                  time, preparation, and court appearances. A cost estimate is
+                  provided at the start of each case.
+                </div>
+              </div>
+            </div>
+            <!-- end item  -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Contact Us  ======= -->
+    <section class="container section_spacing">
+      <div class="row overflow_content">
+        <div
+          class="col-12 col-md-5 mb-4"
+          data-aos="fade-right"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <img
+            src="assets/images/contact_us.png"
+            alt=""
+            class="contact_us_image h-100"
+          />
+        </div>
+        <div
+          class="col-12 col-md-7 mb-4"
+          id="contact"
+          data-aos="fade-left"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <div class="contact_card p-4 d-flex align-items-center h-100">
+            <div class="w-100">
+              <h1 class="section_titles text-white text-capitalize mb-4">
+                Get in <span class="gold_text">touch</span>
+              </h1>
+
+              <form action="">
+                <div class="row">
+                  <div class="col-12 col-md-6">
+                    <div class="mb-4">
+                      <label for="fullName" class="form-label text-light"
+                        >Your Name</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control py-2 input_style"
+                        id="fullName"
+                        aria-describedby="emailHelp"
+                        placeholder="Your Name"
+                      />
+                    </div>
+                  </div>
+                  <!-- end input item  -->
+                  <div class="col-12 col-md-6">
+                    <div class="mb-4">
+                      <label
+                        for="exampleInputEmail1"
+                        class="form-label text-light"
+                        >Your Email</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control py-2 input_style"
+                        id="exampleInputEmail1"
+                        aria-describedby="emailHelp"
+                        placeholder="Your Email"
+                      />
+                    </div>
+                  </div>
+                  <!-- end input item  -->
+                  <div class="col-12 col-md-6">
+                    <div class="mb-4">
+                      <label for="Phone" class="form-label text-light"
+                        >Your Phone</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control py-2 input_style"
+                        id="Phone"
+                        aria-describedby="emailHelp"
+                        placeholder="Your Phone"
+                      />
+                    </div>
+                  </div>
+                  <!-- end input item  -->
+                  <div class="col-12">
+                    <div class="mb-3">
+                      <label
+                        for="exampleFormControlTextarea1"
+                        class="form-label text-light"
+                        >Enter Your Message</label
+                      >
+                      <textarea
+                        class="form-control"
+                        id="exampleFormControlTextarea1"
+                        rows="4"
+                      ></textarea>
+                    </div>
+                  </div>
+                </div>
+                <button
+                  type="button"
+                  class="btn btn-outline-light mt-4 px-4 rounded-pill mb-3 fees_title"
+                >
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Footer  ======= -->
+    <section class="section_spacing footer_container overflow_content">
+      <center>
+        <h1
+          class="footer_title mb-5"
+          data-aos="fade-right"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          Lets work together
+        </h1>
+      </center>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-12 col-md-6 mb-4">
+            <h3 class="team_title">Kgoputso Attorneys</h3>
+            <p class="text-light">
+              <strong>Perseverance at law</strong>. We deliver dependable,
+              ethical, and results-driven legal solutions with a commitment to
+              clarity, justice, and trusted guidance.
+            </p>
+          </div>
+          <div class="col-12 col-md-6 mb-4">
+            <div class="d-flex justify-content-end gap-3">
+              <i class="bi bi-whatsapp footer_icons"></i>
+              <i class="bi bi-linkedin footer_icons"></i>
+              <i class="bi bi-facebook footer_icons"></i>
+              <i class="bi bi-instagram footer_icons"></i>
+            </div>
+          </div>
+        </div>
+        <hr class="my-4 bg-white" />
+        <div class="d-flex gap-3">
+          <a href="#home">
+            <h6 class="text-uppercase footer_nav">home</h6>
+          </a>
+          <a href="#services">
+            <h6 class="text-uppercase footer_nav">services</h6>
+          </a>
+          <a href="#about">
+            <h6 class="text-uppercase footer_nav">about</h6>
+          </a>
+          <a href="#team">
+            <h6 class="text-uppercase footer_nav">team</h6>
+          </a>
+          <a href="#fees">
+            <h6 class="text-uppercase footer_nav">fees</h6>
+          </a>
+          <a href="#contact">
+            <h6 class="text-uppercase footer_nav">contact</h6>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- close offcanvas after select  -->
+    <script>
+      document.querySelectorAll(".offcanvas_links").forEach((link) => {
+        link.addEventListener("click", () => {
+          const offcanvasElement = document.getElementById("offcanvasExample");
+          const offcanvasInstance =
+            bootstrap.Offcanvas.getInstance(offcanvasElement);
+          offcanvasInstance.hide();
+        });
+      });
+    </script>
+
+    <!-- Animation Scripts start  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- Animation Scripts end  -->
+  </body>
+</html>
